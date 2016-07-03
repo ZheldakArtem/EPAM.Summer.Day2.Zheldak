@@ -1,0 +1,4 @@
+C:\Users\Artem\Source\Repos\EPAM.Summer.Day2.Zheldak\EPAM.Summer.Day2.Zheldak\NewtonMethods\bin\Debug\NewtonMethods.dll
+C:\Users\Artem\Source\Repos\EPAM.Summer.Day2.Zheldak\EPAM.Summer.Day2.Zheldak\NewtonMethods\bin\Debug\NewtonMethods.pdb
+C:\Users\Artem\Source\Repos\EPAM.Summer.Day2.Zheldak\EPAM.Summer.Day2.Zheldak\NewtonMethods\obj\Debug\NewtonMethods.dll
+C:\Users\Artem\Source\Repos\EPAM.Summer.Day2.Zheldak\EPAM.Summer.Day2.Zheldak\NewtonMethods\obj\Debug\NewtonMethods.pdb

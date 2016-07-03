@@ -1,1 +1,8 @@
 C:\Users\Artem\Source\Repos\EPAM.Summer.Day2.Zheldak\EPAM.Summer.Day2.Zheldak\ForTask\bin\Debug\ForTask.exe.config
+C:\Users\Artem\Source\Repos\EPAM.Summer.Day2.Zheldak\EPAM.Summer.Day2.Zheldak\ForTask\bin\Debug\ForTask.exe
+C:\Users\Artem\Source\Repos\EPAM.Summer.Day2.Zheldak\EPAM.Summer.Day2.Zheldak\ForTask\bin\Debug\ForTask.pdb
+C:\Users\Artem\Source\Repos\EPAM.Summer.Day2.Zheldak\EPAM.Summer.Day2.Zheldak\ForTask\obj\Debug\ForTask.csprojResolveAssemblyReference.cache
+C:\Users\Artem\Source\Repos\EPAM.Summer.Day2.Zheldak\EPAM.Summer.Day2.Zheldak\ForTask\obj\Debug\ForTask.exe
+C:\Users\Artem\Source\Repos\EPAM.Summer.Day2.Zheldak\EPAM.Summer.Day2.Zheldak\ForTask\obj\Debug\ForTask.pdb
+C:\Users\Artem\Source\Repos\EPAM.Summer.Day2.Zheldak\EPAM.Summer.Day2.Zheldak\ForTask\bin\Debug\NewtonMethods.dll
+C:\Users\Artem\Source\Repos\EPAM.Summer.Day2.Zheldak\EPAM.Summer.Day2.Zheldak\ForTask\bin\Debug\NewtonMethods.pdb
