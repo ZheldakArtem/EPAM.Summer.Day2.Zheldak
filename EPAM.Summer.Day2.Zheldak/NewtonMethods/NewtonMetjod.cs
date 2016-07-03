@@ -16,7 +16,7 @@ namespace Task1
             }
             if (exponent == 0)
             {
-                return 1;
+                return 1;//
             }
             double x = number;
             double xk = 0;
