@@ -11,6 +11,7 @@ namespace ForTask
     {
         static void Main(string[] args)
         {
+
             double number = 255;
             int exponent = 4;
             double correctness = 0.01;

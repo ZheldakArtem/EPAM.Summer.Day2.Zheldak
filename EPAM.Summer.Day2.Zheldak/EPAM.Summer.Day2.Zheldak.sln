@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForTask", "ForTask\ForTask.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1", "NewtonMethods\Task1.csproj", "{61456F56-F4EF-45F5-8D6E-77765FBB22D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2", "Task2\Task2.csproj", "{DAF5B8D2-8AB2-4F6F-9C78-547403F16AFF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{61456F56-F4EF-45F5-8D6E-77765FBB22D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61456F56-F4EF-45F5-8D6E-77765FBB22D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61456F56-F4EF-45F5-8D6E-77765FBB22D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAF5B8D2-8AB2-4F6F-9C78-547403F16AFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAF5B8D2-8AB2-4F6F-9C78-547403F16AFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAF5B8D2-8AB2-4F6F-9C78-547403F16AFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAF5B8D2-8AB2-4F6F-9C78-547403F16AFF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
