@@ -165,6 +165,14 @@ namespace Task2
             return BinaryGCDalgorithm((second - first) / 2, first);
         }
 
+        public static int BinaryGCDalgorithm(int first, int second,int third)
+        {
+            int intermediate = BinaryGCDalgorithm(first, second);
+            int result = BinaryGCDalgorithm(intermediate,third);
+
+            return result;
+        }
+
     }
 }
 
