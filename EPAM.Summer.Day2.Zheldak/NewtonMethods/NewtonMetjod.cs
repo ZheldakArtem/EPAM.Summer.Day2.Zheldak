@@ -6,9 +6,16 @@ using System.Threading.Tasks;
 
 namespace Task1
 {
-    public static class NewtonMetjod
+    public static class NewtonMethod
     {
-        public static double FindingTheRoot(double number, int exponent, double correctness)
+        /// <summary>
+        /// The method for finding the roots.
+        /// </summary>
+        /// <param name="number">The number of wich will be taken the root</param>
+        /// <param name="exponent">Power of the root</param>
+        /// <param name="correctness"></param>
+        /// <returns></returns>
+        public static double FindingTheRoot(double number, int exponent, double correctness=0.001)
         {
             if (number < 0 && exponent % 2 == 0)
             {
@@ -16,7 +23,7 @@ namespace Task1
             }
             if (exponent == 0)
             {
-                return 1;//
+                return 1;
             }
             double x = number;
             double xk = 0;
