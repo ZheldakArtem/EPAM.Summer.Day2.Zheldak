@@ -12,7 +12,7 @@ namespace ForTask
     {
         static void Main(string[] args)
         {
-            
+                       
             double number = 255;
             int exponent = 4;
             double correctness = 0.001;
@@ -20,8 +20,9 @@ namespace ForTask
             Console.WriteLine("NewtonMethod:{0}", result);
             double resultPow = Math.Pow(number, (double)1/exponent);
             Console.WriteLine("Math.Pow:{0}", resultPow);
-
-            EuclidAlgorithm.GetGCD(0, 0);
+            long sec;
+          int d= MathematicalAlgorithms.GetGCD(out sec,1257124681, int.MaxValue);
+            Console.WriteLine(sec);
             Console.ReadLine();
         }
     }
