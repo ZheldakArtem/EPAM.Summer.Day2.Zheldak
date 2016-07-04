@@ -135,6 +135,36 @@ namespace Task2
             return resultArray.Min();
         }
 
-       
+
+        public static int BinaryGCDalgorithm(int first, int second)
+        {
+            if (first == 0 && second == 0) throw new ArgumentException();
+            if (first == second)
+                return first;
+            if (first == 0)
+                return second;
+            if (second == 0)
+                return first;
+
+            if (first % 2 == 0)
+            {
+                if (second % 2 == 0)
+                {
+                    return 2 * BinaryGCDalgorithm(first / 2, second / 2);
+                }
+                return BinaryGCDalgorithm(first / 2, second);
+            }
+
+            if (second % 2 == 0)
+            {
+                return BinaryGCDalgorithm(first, second / 2);
+            }
+            if (first > second)
+                return BinaryGCDalgorithm((first - second) / 2, second);
+
+            return BinaryGCDalgorithm((second - first) / 2, first);
+        }
+
     }
 }
+

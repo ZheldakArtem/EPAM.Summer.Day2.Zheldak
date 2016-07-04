@@ -20,9 +20,9 @@ namespace ForTask
             Console.WriteLine("NewtonMethod:{0}", result);
             double resultPow = Math.Pow(number, (double)1/exponent);
             Console.WriteLine("Math.Pow:{0}", resultPow);
-            long sec;
-          int d= MathematicalAlgorithms.GetGCD(out sec,1257124681, int.MaxValue);
-            Console.WriteLine(sec);
+            
+            int d = MathematicalAlgorithms.GCD(25,15);
+          //  Console.WriteLine(sec);
             Console.ReadLine();
         }
     }
