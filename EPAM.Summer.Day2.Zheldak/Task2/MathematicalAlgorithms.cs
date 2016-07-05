@@ -108,12 +108,11 @@ namespace Task2
 
             return resultArray.Min();
         }
-
         /// <summary>
         /// The method for getting the greatest common divisor(GCD) and receiving method execution time.
         /// <exception cref="ArgumentException">Throws when you have less two params</exception>
         /// </summary>
-        /// <param name="elapsedTime"></param>
+        /// <param name="elapsedTime"> elapsed time</param>
         /// <param name="arrayNumbers">count of params</param>
         /// <returns>GCD</returns>
         public static int GetGCD(out long elapsedTime, params int[] arrayNumbers)
@@ -125,6 +124,8 @@ namespace Task2
             {
                 throw new ArgumentException();
             }
+
+            Array.Sort(arrayNumbers);
             int[] resultArray = new int[arrayNumbers.Length - 1];
             for (int i = 0; i < arrayNumbers.Length - 1; i++)
             {
@@ -136,8 +137,12 @@ namespace Task2
 
             return resultArray.Min();
         }
-
-
+        /// <summary>
+        /// The method for getting the greatest common divisor of two numbers.
+        /// </summary>
+        /// <param name="first">first value</param>
+        /// <param name="second">second value</param>
+        /// <returns>The greatest common divisor</returns>
         public static int BinaryGCDalgorithm(int first, int second)
         {
             if (first == 0 && second == 0) throw new ArgumentException();
@@ -166,7 +171,13 @@ namespace Task2
 
             return BinaryGCDalgorithm((second - first) / 2, first);
         }
-
+        /// <summary>
+        /// The method for getting the greatest common divisor of three numbers.
+        /// </summary>
+        /// <param name="first">first value</param>
+        /// <param name="second">second value</param>
+        /// <param name="third">third value</param>
+        /// <returns>The greatest common divisor</returns>
         public static int BinaryGCDalgorithm(int first, int second,int third)
         {
             int intermediate = BinaryGCDalgorithm(first, second);
@@ -174,7 +185,28 @@ namespace Task2
 
             return result;
         }
+        /// <summary>
+        /// The method for getting the greatest common divisor(GCD).
+        /// </summary>
+        /// <param name="arrayNumbers">Count numbers</param>
+        /// <returns>The greatest common divisor</returns>
+        public static int BinaryGCDalgorithm(params int[] arrayNumbers)
+        {
+            if (arrayNumbers.Length < 2)
+            {
+                throw new ArgumentException();
+            }
 
+            Array.Sort(arrayNumbers);
+            int[] resultArray = new int[arrayNumbers.Length - 1];
+
+            for (int i = 0; i < arrayNumbers.Length - 1; i++)
+            {
+                resultArray[i] = BinaryGCDalgorithm(arrayNumbers[0], arrayNumbers[i + 1]);
+            }
+
+            return resultArray.Min();
+        }
     }
 }
 
