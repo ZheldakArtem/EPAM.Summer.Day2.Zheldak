@@ -50,10 +50,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NewtonMethods\Task1.csproj">
-      <Project>{61456F56-F4EF-45F5-8D6E-77765FBB22D3}</Project>
-      <Name>Task1</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Task2\Task2.csproj">
       <Project>{DAF5B8D2-8AB2-4F6F-9C78-547403F16AFF}</Project>
       <Name>Task2</Name>
