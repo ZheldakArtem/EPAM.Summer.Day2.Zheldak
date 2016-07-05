@@ -94,6 +94,8 @@ namespace Task2
         /// <returns></returns>
         public static int GetGCD(params int[] arrayNumbers)
         {
+            Array.Sort(arrayNumbers);
+
             if (arrayNumbers.Length < 2)
             {
                 throw new ArgumentException();
