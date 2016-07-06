@@ -21,7 +21,9 @@ namespace Task1
             {
                 return double.NaN;
             }
-            if (number < 0 || exponent < 0)
+            if (correctness > 1)
+                throw new ArithmeticException();
+            if (number < 0 && exponent < 0)
                 throw new ArgumentException();
             if (exponent == 0)
             {
