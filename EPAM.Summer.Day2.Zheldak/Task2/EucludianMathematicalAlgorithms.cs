@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Task2
 {
-    public static class MathematicalAlgorithms
+    public static class EucludianMathematicalAlgorithms
     {
         /// <summary>
         /// The method for getting the greatest common divisor of two numbers.
