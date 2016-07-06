@@ -18,22 +18,33 @@ namespace Task2
         public static int GetGCD(int first, int second)
         {
             if (first == 0 && second == 0)
-            {
                 throw new ArgumentException();
-            }
-            while (first != 0 && second != 0)
+            if (first == 0 || first == second)
+                return Math.Abs(second);
+            if (second == 0)
+                return Math.Abs(first);
+
+            if (second > first)
             {
-                if (first > second)
-                    first %= second;
-                else
-                    second %= first;
+                int complete = first;
+                first = second;
+                second = complete;
+            }
+            int residual = 1;
+
+            while (residual != 0)
+            {
+                var temp = Math.Abs(first / second);
+                if (temp == 0)
+                    temp = 1;
+                residual = Math.Abs(first - (second * temp));
+                first = second;
+                second = residual;
             }
 
-            if (first == 0)
-                return second;
-            else
-                return first;
-        }
+            return first;
+        
+    }
         /// <summary>
         /// The method for getting the greatest common divisor of two numbers and receiving method execution time.
         /// </summary>
