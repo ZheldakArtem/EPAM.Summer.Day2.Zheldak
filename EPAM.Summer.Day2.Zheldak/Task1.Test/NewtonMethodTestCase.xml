@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Cases>
+  <Case>
+    <Number>9</Number>
+    <Exponent>2</Exponent>
+    <Result>3</Result>
+  </Case>
+ <TestCase>
+    <Number>16</Number>
+    <Exponent>2</Exponent>
+    <Result>4</Result>
+  </TestCase>
+ <TestCase>
+    <Number>81</Number>
+    <Exponent>2</Exponent>
+    <Result>9</Result>
+  </TestCase>
+ <TestCase>
+    <Number>16</Number>
+    <Exponent>0</Exponent>
+    <Result>1</Result>
+  </TestCase>
+ <TestCase>
+    <Number>0</Number>
+    <Exponent>4</Exponent>
+    <Result>0</Result>
+  </TestCase>
+</Cases>

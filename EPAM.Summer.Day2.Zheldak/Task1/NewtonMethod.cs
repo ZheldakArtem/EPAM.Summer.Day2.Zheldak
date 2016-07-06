@@ -19,7 +19,7 @@ namespace Task1
         {
             if (number < 0 && exponent % 2 == 0)
             {
-                return double.NaN;
+                throw new ArgumentException();
             }
             if (correctness > 1)
                 throw new ArithmeticException();

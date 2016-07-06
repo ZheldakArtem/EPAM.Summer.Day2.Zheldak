@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Cases>
+  <Case>
+    <Number>0,0625</Number>
+    <Exponent>2</Exponent>
+    <Correctness>0,0001</Correctness>
+    <Result>0,25</Result>
+  </Case>
+  <Case>
+    <Number>2147483647</Number>
+    <Exponent>2</Exponent>
+    <Correctness>0,0001</Correctness>
+    <Result>46340,95</Result>
+  </Case>
+</Cases>

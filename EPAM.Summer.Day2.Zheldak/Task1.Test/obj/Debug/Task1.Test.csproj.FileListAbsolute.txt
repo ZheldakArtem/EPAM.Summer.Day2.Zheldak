@@ -6,4 +6,5 @@ C:\Users\Artem\Source\Repos\EPAM.Summer.Day2.Zheldak\EPAM.Summer.Day2.Zheldak\Ta
 C:\Users\Artem\Source\Repos\EPAM.Summer.Day2.Zheldak\EPAM.Summer.Day2.Zheldak\Task1.Test\obj\Debug\Task1.Test.csprojResolveAssemblyReference.cache
 C:\Users\Artem\Source\Repos\EPAM.Summer.Day2.Zheldak\EPAM.Summer.Day2.Zheldak\Task1.Test\obj\Debug\Task1.Test.dll
 C:\Users\Artem\Source\Repos\EPAM.Summer.Day2.Zheldak\EPAM.Summer.Day2.Zheldak\Task1.Test\obj\Debug\Task1.Test.pdb
-C:\Users\Artem\Source\Repos\EPAM.Summer.Day2.Zheldak\EPAM.Summer.Day2.Zheldak\Task1.Test\bin\Debug\DataForTest.xml
+C:\Users\Artem\Source\Repos\EPAM.Summer.Day2.Zheldak\EPAM.Summer.Day2.Zheldak\Task1.Test\bin\Debug\NewtonMethodTestCase.xml
+C:\Users\Artem\Source\Repos\EPAM.Summer.Day2.Zheldak\EPAM.Summer.Day2.Zheldak\Task1.Test\bin\Debug\NewtonMethodWithCorrectness.xml
