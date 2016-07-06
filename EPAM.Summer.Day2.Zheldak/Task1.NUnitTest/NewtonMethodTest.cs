@@ -13,8 +13,8 @@ namespace Task1.NUnitTest
     {
 
         [TestCase(7, 2, 0.01, 2.6457)]
-        [TestCase(26.765, 3, 0.01, 2.9913)]
-        [TestCase(-26.765, 3, 0.01, -2.9913)]
+        [TestCase(0.125, 3, 0.01, 0.5)]
+        [TestCase(146.41, 2, 0.01, 12.1)]
         public void NewtonMethod_Test(double number, int power, double correctness, double res)
         {
 
