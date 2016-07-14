@@ -43,6 +43,12 @@
     <Compile Include="EucludianMathematicalAlgorithms.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Task1.NUnitTest\Task1.NUnitTest.csproj">
+      <Project>{4abc1fe4-c62b-4f7b-b561-36e8fc659d5e}</Project>
+      <Name>Task1.NUnitTest</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

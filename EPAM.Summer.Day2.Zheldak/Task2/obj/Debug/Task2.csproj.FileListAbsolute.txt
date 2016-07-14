@@ -3,3 +3,9 @@ C:\Users\Artem\Source\Repos\EPAM.Summer.Day2.Zheldak\EPAM.Summer.Day2.Zheldak\Ta
 C:\Users\Artem\Source\Repos\EPAM.Summer.Day2.Zheldak\EPAM.Summer.Day2.Zheldak\Task2\obj\Debug\Task2.csprojResolveAssemblyReference.cache
 C:\Users\Artem\Source\Repos\EPAM.Summer.Day2.Zheldak\EPAM.Summer.Day2.Zheldak\Task2\obj\Debug\Task2.dll
 C:\Users\Artem\Source\Repos\EPAM.Summer.Day2.Zheldak\EPAM.Summer.Day2.Zheldak\Task2\obj\Debug\Task2.pdb
+C:\Users\Artem\Source\Repos\EPAM.Summer.Day2.Zheldak\EPAM.Summer.Day2.Zheldak\Task2\bin\Debug\Task1.NUnitTest.dll
+C:\Users\Artem\Source\Repos\EPAM.Summer.Day2.Zheldak\EPAM.Summer.Day2.Zheldak\Task2\bin\Debug\nunit.framework.dll
+C:\Users\Artem\Source\Repos\EPAM.Summer.Day2.Zheldak\EPAM.Summer.Day2.Zheldak\Task2\bin\Debug\NewtonMethods.dll
+C:\Users\Artem\Source\Repos\EPAM.Summer.Day2.Zheldak\EPAM.Summer.Day2.Zheldak\Task2\bin\Debug\Task1.NUnitTest.pdb
+C:\Users\Artem\Source\Repos\EPAM.Summer.Day2.Zheldak\EPAM.Summer.Day2.Zheldak\Task2\bin\Debug\nunit.framework.xml
+C:\Users\Artem\Source\Repos\EPAM.Summer.Day2.Zheldak\EPAM.Summer.Day2.Zheldak\Task2\bin\Debug\NewtonMethods.pdb
